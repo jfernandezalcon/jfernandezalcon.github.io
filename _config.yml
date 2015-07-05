@@ -1,13 +1,16 @@
 # Site settings
 title: Black.Magic
-email: jose@remove-sub-domain.blackmagic.io
+email: blog@blackmagic.io
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Stuff I am working on / reading / investigating / very curious about.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.blackmagic.io" # the base hostname & protocol for your site
-github_username:  jfernandezalcon
+#github_username:  jfernandezalcon
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
+markdown: redcarpet
+
+defaults:
+  values:
+    author: "Jose"
