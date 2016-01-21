@@ -9,6 +9,7 @@ author: Blackmagic
 Sometimes, you need to rebuild all package dependecies of a package for it to build and/or work correctly. In my case the problem was that upgrading kdelibs was failing at linking because I have moved from gcc-4.9 to gcc-5.3 and the dependencies were using the old ABI (Application Binary Interface).
 
 With *equery* we can find out the list of dependencies that the package at stake has.
+
 ```bash
 equery depends <package>
 ```
